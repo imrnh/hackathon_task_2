@@ -49,7 +49,7 @@ def save_recipe(recp: RecipeModel):
     
     
 
-@rcp_router.get("recipes/all")
+@rcp_router.get("/all")
 def get_recipes():
     try:
         existing_items = read_json_from_file(ROOT_FILE)
@@ -58,7 +58,7 @@ def get_recipes():
         return HTTPException(status_code=400, detail=e)
 
 
-@rcp_router.get("recipes/name")
+@rcp_router.get("/name")
 def get_recipes(name: str):
     try:
         existing_items = read_json_from_file(ROOT_FILE)
@@ -75,7 +75,7 @@ def get_recipes(name: str):
     
     
     
-@rcp_router.get("recipe_recommendation")
+@rcp_router.get("/recommendation")
 def recipe_recommendation(recipe_type: str):
     # Get recipe information
     existing_items = read_json_from_file(ROOT_FILE)

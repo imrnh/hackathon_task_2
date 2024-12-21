@@ -40,7 +40,7 @@ Route:
 
 
 Route:
-    /recipesrecipes/all
+    /recipes/all
     Method: GET
     Sample Response:
        [
@@ -64,7 +64,7 @@ Route:
        ]
 
 Route:
-    /recipesrecipe_recommendation
+    /recipes/recommendation
     Method: GET
     Sample Response:
       recipe_type: "Sweet but little Sour"
