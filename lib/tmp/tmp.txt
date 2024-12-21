@@ -1,0 +1,1 @@
+{"name": "Sweet Chorizo and Pepper Pasta", "taste": "sweet", "reviews": 4.5, "prep_time": 40, "cuisine_type": "Italian", "description": "Spicy chorizo and sweet bell peppers tossed with pasta in a light tomato sauce."}

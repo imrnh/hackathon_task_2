@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+gradio_client
+sqlite3
+python-dotenv
+langchain-google-genai

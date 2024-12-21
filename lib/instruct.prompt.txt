@@ -1,0 +1,3 @@
+From the give recipes information, suggest something that fits the user request if the required ingradients are available. 
+Please keep a friendly tone and greet user. Do not include dictionary key on the response please.
+Available Ingradients:
